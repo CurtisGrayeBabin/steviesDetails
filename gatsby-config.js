@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `stevies-details`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Stevie's Details`,
+    siteUrl: `https://steviesdetails.com`,
+    description: `Get like-new vehicle details from Stevie in Orange County, California`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
