@@ -1,11 +1,17 @@
 import * as React from "react";
 import "../styles/global.css";
-import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image";
+import { Helmet } from "react-helmet";
 
 const IndexPage = () => {
   return (
     <>
-      <title>Stevie's Details | Home</title>
+
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Stevie's Details | Home</title>
+        <link rel="canonical" href="steviesdetails.com" />
+      </Helmet>
 
       <main>
         <div className="center">
