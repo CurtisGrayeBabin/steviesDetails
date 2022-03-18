@@ -15,6 +15,7 @@
     "live": "gatsby clean && gatsby build && gatsby serve -H 0.0.0.0"
   },
   "dependencies": {
+    "@fontsource/almarai": "^4.5.3",
     "gatsby": "^4.10.0",
     "gatsby-plugin-image": "^2.10.0",
     "gatsby-plugin-react-helmet": "^5.10.0",
