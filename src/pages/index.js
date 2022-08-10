@@ -19,7 +19,7 @@ const IndexPage = () => {
           <StaticImage src="../images/smallLogo.png" alt="Stevie's Details logo" width={500} height={400} />
           <h2>Located in Orange County, California</h2>
 
-          <h3>This site is under construction until ~ June, 2022</h3>
+          <h3>This site is under construction until ~ August, 2022</h3>
 
 
           <a href="https://www.instagram.com/stevies_details/" target="_blank" rel="noreferrer">Instagram</a>
