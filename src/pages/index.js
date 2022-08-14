@@ -1,19 +1,33 @@
 import * as React from "react";
-import "../styles/global.css";
+import PageLayout from "../components/PageLayout";
 import { StaticImage } from "gatsby-plugin-image";
-import { Helmet } from "react-helmet";
+import { Link } from "gatsby";
+import "../styles/global.css";
 
 const IndexPage = () => {
+
+  const pageTitle = "Stevie's Details | Home";
+  const contentDescription = "The homepage of Stevie's Details";
+  const canonicalLink = "https://steviesdetails.com";
+
   return (
-    <>
+    <PageLayout pageTitle={pageTitle} contentDescription={contentDescription} canonicalLink={canonicalLink}>
+    
+    {/* Basic description that doesn't need to display */}
+    <p style={{'display': 'none'}}>
+    Stevie's Details est. 2019
+    </p>
 
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Stevie's Details | Home</title>
-        <link rel="canonical" href="steviesdetails.com" />
-      </Helmet>
 
-      <main>
+    {/* main content */}
+
+    <div className="homepageContent">
+      
+
+    </div>
+
+      {/* 
+      
         <div className="center">
           <h1>Stevie's Details</h1>
           <StaticImage src="../images/smallLogo.png" alt="Stevie's Details logo" width={500} height={400} />
@@ -27,10 +41,13 @@ const IndexPage = () => {
           <a href="https://www.yelp.com/biz/stevie-s-details-santa-ana-2" target="_blank" rel="noreferrer">Yelp</a>
           <a href="mailto: steviesdetailsllc@gmail.com" target="_blank" rel="noreferrer">Email</a>
         </div>
+      
+      */}
 
-      </main>
-    </>
-  )
-}
+    
 
-export default IndexPage
+    </PageLayout>
+  );
+};
+
+export default IndexPage;

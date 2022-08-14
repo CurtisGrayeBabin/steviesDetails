@@ -1,6 +1,11 @@
+:root {
+    --bg-color: black;
+    --text-color: white;
+}
+
 html, body {
-    background-color: black;
-    color: white;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     margin: 0;
     font-family: "Almarai", sans-serif;
 
@@ -35,4 +40,8 @@ a {
     width: fit-content;
     margin: 0 auto;
     text-align: center;
+}
+
+.homepageContent {
+    
 }
