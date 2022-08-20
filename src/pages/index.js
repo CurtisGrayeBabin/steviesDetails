@@ -22,7 +22,7 @@ const IndexPage = () => {
     {/* main content */}
 
     <div className="homepageContent">
-      
+      hello
 
     </div>
 

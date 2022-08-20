@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import Navbar from "./Navbar";
+import "../styles/global.css";
 
 // format of each page (not just Home page)
 const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
@@ -24,15 +25,20 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
         />
       </Helmet>
 
-      <Navbar />
+      <div className="content-container">
 
-      <main className="content">
-        {children}
-      </main>
+        <Navbar />
 
-      <footer className="layoutFooter footer">
-        footer section
-      </footer>
+        <main className="content">
+          {children}
+        </main>
+
+        <footer>
+          Built by&nbsp;<a href="https://curtisbabin.com" target="_">Curtis Babin</a>
+        </footer>
+
+      </div>
+
     </>
   );
 };
