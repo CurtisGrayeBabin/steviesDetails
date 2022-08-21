@@ -21,10 +21,9 @@ const IndexPage = () => {
 
     {/* main content */}
 
-    <div className="homepageContent">
-      hello
-
-    </div>
+    <h1 className="headline">
+    Offering <span className="gold">quality details</span> at your convenience across <span className="gold">Orange County, California</span> ☀️😎🌴
+    </h1>
 
       {/* 
       

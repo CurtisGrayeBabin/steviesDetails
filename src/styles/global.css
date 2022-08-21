@@ -1,6 +1,7 @@
 :root {
     --bg-color: black;
     --text-color: white;
+    --primary-color: #c7b073;
 }
 
 html, body {
@@ -19,13 +20,40 @@ html, body {
 
 .content {
     flex: 1;
+    padding: 0 15px;
 }
 
 footer {
     display: flex;
-    justify-content: center;
+    flex-flow: column wrap;
     border-top: 1px solid var(--text-color);
-    padding-top: 5px;
+    opacity: 0.35;
+    font-size: .75rem;
+}
+
+footer div {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.headline {
+    letter-spacing: 2px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gold {
+    color: var(--primary-color);
+}
+
+.center {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.homepageContent {
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -48,14 +76,4 @@ h3 {
 
 a {
     color: var(--text-color);
-}
-
-.center {
-    width: fit-content;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.homepageContent {
-    
 }

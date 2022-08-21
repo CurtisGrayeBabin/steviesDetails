@@ -34,7 +34,8 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
         </main>
 
         <footer>
-          Built by&nbsp;<a href="https://curtisbabin.com" target="_">Curtis Babin</a>
+          <div>Stevie's Details {new Date().getFullYear()}</div>
+          <div>Website:&nbsp;<a href="https://curtisbabin.com" target="_">Curtis Babin</a></div>
         </footer>
 
       </div>
