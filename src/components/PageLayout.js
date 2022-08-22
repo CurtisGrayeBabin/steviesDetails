@@ -35,7 +35,7 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
 
         <footer>
           <div>Stevie's Details {new Date().getFullYear()}</div>
-          <div>Website:&nbsp;<a href="https://curtisbabin.com" target="_">Curtis Babin</a></div>
+          <div>Website developed by&nbsp;<a href="https://curtisbabin.com" target="_">Curtis Babin</a></div>
         </footer>
 
       </div>
