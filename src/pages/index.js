@@ -13,37 +13,36 @@ const IndexPage = () => {
   return (
     <PageLayout pageTitle={pageTitle} contentDescription={contentDescription} canonicalLink={canonicalLink}>
     
-    {/* Basic description that doesn't need to display */}
-    <p style={{'display': 'none'}}>
-    Stevie's Details est. 2019
-    </p>
+
+      {/* main content */}
+
+      <div className="center">
+        <StaticImage src="../images/smallLogo.png" alt="Stevie's Details logo" width={600} height={500} />
+      </div>
+
+      <h1 className="headline">
+      Offering <span className="gold">quality details</span> at your convenience across <span className="gold">Orange County, California</span> ☀️😎🌴
+      </h1>
+
+        {/* 
+        
+          <div className="center">
+            <h1>Stevie's Details</h1>
+            <StaticImage src="../images/smallLogo.png" alt="Stevie's Details logo" width={500} height={400} />
+            <h2>Located in Orange County, California</h2>
+
+            <h3>This site is under construction until ~ August, 2022</h3>
 
 
-    {/* main content */}
+            <a href="https://www.instagram.com/stevies_details/" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://www.tiktok.com/@stevies_details" target="_blank" rel="noreferrer">TikTok</a>
+            <a href="https://www.yelp.com/biz/stevie-s-details-santa-ana-2" target="_blank" rel="noreferrer">Yelp</a>
+            <a href="mailto: steviesdetailsllc@gmail.com" target="_blank" rel="noreferrer">Email</a>
+          </div>
+        
+        */}
 
-    <h1 className="headline">
-    Offering <span className="gold">quality details</span> at your convenience across <span className="gold">Orange County, California</span> ☀️😎🌴
-    </h1>
-
-      {/* 
       
-        <div className="center">
-          <h1>Stevie's Details</h1>
-          <StaticImage src="../images/smallLogo.png" alt="Stevie's Details logo" width={500} height={400} />
-          <h2>Located in Orange County, California</h2>
-
-          <h3>This site is under construction until ~ August, 2022</h3>
-
-
-          <a href="https://www.instagram.com/stevies_details/" target="_blank" rel="noreferrer">Instagram</a>
-          <a href="https://www.tiktok.com/@stevies_details" target="_blank" rel="noreferrer">TikTok</a>
-          <a href="https://www.yelp.com/biz/stevie-s-details-santa-ana-2" target="_blank" rel="noreferrer">Yelp</a>
-          <a href="mailto: steviesdetailsllc@gmail.com" target="_blank" rel="noreferrer">Email</a>
-        </div>
-      
-      */}
-
-    
 
     </PageLayout>
   );

@@ -27,7 +27,7 @@ footer {
     display: flex;
     flex-flow: column wrap;
     border-top: 1px solid var(--text-color);
-    opacity: 0.35;
+    opacity: 0.5;
     font-size: .75rem;
 }
 
@@ -47,7 +47,6 @@ footer div {
 }
 
 .center {
-    width: fit-content;
     margin: 0 auto;
     text-align: center;
 }
