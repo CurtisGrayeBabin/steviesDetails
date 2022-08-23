@@ -38,10 +38,14 @@ footer div {
 }
 
 .headline {
-    letter-spacing: 2px;
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.spacing {
+    letter-spacing: 2px;
+}
+
 
 .gold {
     color: var(--primary-color);

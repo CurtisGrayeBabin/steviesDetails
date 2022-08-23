@@ -20,9 +20,12 @@ const IndexPage = () => {
         <StaticImage src="../images/smallLogo.png" alt="Stevie's Details logo" width={600} height={500} />
       </div>
 
-      <h1 className="headline">
+      <h1 className="headline spacing">
       Offering <span className="gold">quality details</span> at your convenience across <span className="gold">Orange County, California</span> ☀️😎🌴
       </h1>
+
+      {/* glowing image here */}
+      <h2 className="center spacing">More <span className="gold">details</span> below👇</h2>
 
         {/* 
         
