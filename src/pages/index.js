@@ -1,14 +1,30 @@
 import * as React from "react";
 import PageLayout from "../components/PageLayout";
 import { StaticImage } from "gatsby-plugin-image";
-import { Link } from "gatsby";
 import "../styles/global.css";
+
+
+import { useState, useEffect } from "react";
 
 const IndexPage = () => {
 
   const pageTitle = "Stevie's Details | Home";
   const contentDescription = "The homepage of Stevie's Details";
   const canonicalLink = "https://steviesdetails.com";
+
+  // cycle through car images in /images
+  var [imageNumber, setImageNumber] = useState(6);
+
+  var randomImageNumber = () => {
+    let value = Math.floor(Math.random() * 24);
+    setImageNumber(value ? value : 1);
+  }
+
+  useEffect(() => {
+    setInterval(randomImageNumber, 5000);
+  }, []);
+  
+
 
   return (
     <PageLayout pageTitle={pageTitle} contentDescription={contentDescription} canonicalLink={canonicalLink}>
@@ -24,26 +40,16 @@ const IndexPage = () => {
       Offering <span className="gold">quality details</span> at your convenience across <span className="gold">Orange County, California</span> <span style={{"whiteSpace":"nowrap"}}>☀️😎🌴</span>
       </h1>
 
+      {/* cycle through car images */}
+      <div className="index-image-container">
+          {/*<StaticImage src={`../images/image-${imageNumber}.jpeg`} alt="Car" width={900} />*/}
+          <img src={`image-${imageNumber}.jpeg`} alt="Some alt text" width={900} />
+      </div>
+
+      
+
       {/* glowing image here */}
       <h2 className="center spacing">More <span className="gold">details</span> below👇</h2>
-
-        {/* 
-        
-          <div className="center">
-            <h1>Stevie's Details</h1>
-            <StaticImage src="../images/smallLogo.png" alt="Stevie's Details logo" width={500} height={400} />
-            <h2>Located in Orange County, California</h2>
-
-            <h3>This site is under construction until ~ August, 2022</h3>
-
-
-            <a href="https://www.instagram.com/stevies_details/" target="_blank" rel="noreferrer">Instagram</a>
-            <a href="https://www.tiktok.com/@stevies_details" target="_blank" rel="noreferrer">TikTok</a>
-            <a href="https://www.yelp.com/biz/stevie-s-details-santa-ana-2" target="_blank" rel="noreferrer">Yelp</a>
-            <a href="mailto: steviesdetailsllc@gmail.com" target="_blank" rel="noreferrer">Email</a>
-          </div>
-        
-        */}
 
       
 
