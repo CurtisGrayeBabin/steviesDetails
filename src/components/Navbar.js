@@ -6,15 +6,18 @@ import { IconContext } from 'react-icons';
 import { VscChromeClose } from 'react-icons/vsc';
 import { HiMenu } from 'react-icons/hi';
 
+import { navigate } from '@reach/router';
+
 
 function Navbar() {
 
   // determines if side menu is open or not
   const [menuOpen, setMenuOpen] = useState(false);
 
+
   return (
     <>
-      <nav>
+      <nav className="padding">
 
 
         {/* Side Menu */}
@@ -23,13 +26,13 @@ function Navbar() {
               {
                 menuOpen ? 
                   
-                  <IconContext.Provider value={{ title: "Side-menu close button", className: "sideMenu" }}>
+                  <IconContext.Provider value={{ title: "Side-menu close button" }}>
                     <VscChromeClose />
                   </IconContext.Provider>
                   
                   :
                   
-                  <IconContext.Provider value={{ title: "Side-menu open button", className: "sideMenu" }}>
+                  <IconContext.Provider value={{ title: "Side-menu open button" }}>
                     <HiMenu />
                   </IconContext.Provider>
                   

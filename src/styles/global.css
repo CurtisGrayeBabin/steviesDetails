@@ -23,7 +23,7 @@ html, body {
     padding: 0 15px;
 }
 
-nav {
+.padding {
     padding: 1.125rem;
 }
 
@@ -69,8 +69,9 @@ footer div {
     text-align: center;
 }
 
-.homepageContent {
-    
+.side-menu-content {
+    z-index: 10;
+    height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
