@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import SideMenu from "../components/SideMenu";
+import "../styles/global.css";
+
+import { IconContext } from 'react-icons';
+import { VscChromeClose } from 'react-icons/vsc';
+import { HiMenu } from 'react-icons/hi';
 
 
 function Navbar() {
@@ -17,20 +22,17 @@ function Navbar() {
           <button onClick={() => setMenuOpen(!menuOpen)}>
               {
                 menuOpen ? 
-                1
-                  /* 
+                  
                   <IconContext.Provider value={{ title: "Side-menu close button", className: "sideMenu" }}>
                     <VscChromeClose />
                   </IconContext.Provider>
-                  */
+                  
                   :
-                  2
-
-                  /* 
+                  
                   <IconContext.Provider value={{ title: "Side-menu open button", className: "sideMenu" }}>
-                    <GiHamburgerMenu />
+                    <HiMenu />
                   </IconContext.Provider>
-                  */ 
+                  
               }
           </button>
 
