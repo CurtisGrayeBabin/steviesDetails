@@ -14,9 +14,10 @@ const IndexPage = () => {
 
   // cycle through car images in /images
   var [imageNumber, setImageNumber] = useState(6);
+  const imageNumberMax = 24;
 
   var randomImageNumber = () => {
-    let value = Math.floor(Math.random() * 24);
+    let value = Math.floor(Math.random() * imageNumberMax);
     setImageNumber(value ? value : 1);
   }
 
@@ -43,15 +44,15 @@ const IndexPage = () => {
       {/* cycle through car images */}
       <div className="index-image-container">
           {/*<StaticImage src={`../images/image-${imageNumber}.jpeg`} alt="Car" width={900} />*/}
-          <img src={`image-${imageNumber}.jpeg`} alt="Some alt text" width={900} />
+          <img src={`image-${imageNumber}.jpeg`} alt="Clean car image" width={900} />
       </div>
 
       
 
-      {/* glowing image here */}
+      {/* todo
       <h2 className="center spacing">More <span className="gold">details</span> below👇</h2>
+      */}
 
-      
 
     </PageLayout>
   );
