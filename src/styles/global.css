@@ -71,7 +71,25 @@ footer div {
 
 .side-menu-content {
     z-index: 10;
-    height: 100vh;
+}
+
+ul {
+    padding-inline-start: 0 !important;
+    margin: 0 !important;
+}
+
+
+.links a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.125rem;
+    font-size: 2rem;
+    border-top: 1px solid var(--text-color);
+}
+
+.icon-helper {
+    line-height: 0;
 }
 
 @media only screen and (max-width: 600px) {
