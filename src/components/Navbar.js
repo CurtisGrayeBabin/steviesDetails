@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import SideMenu from "../components/SideMenu";
+import DropMenu from "./DropMenu";
 import "../styles/global.css";
 
 import { IconContext } from 'react-icons';
-import { VscChromeClose } from 'react-icons/vsc';
+import { CgClose } from 'react-icons/cg';
 import { HiMenu } from 'react-icons/hi';
 
 function Navbar() {
@@ -24,7 +24,7 @@ function Navbar() {
                 menuOpen ? 
                   
                   <IconContext.Provider value={{ title: "Side-menu close button" }}>
-                    <VscChromeClose />
+                    <CgClose />
                   </IconContext.Provider>
                   
                   :
@@ -38,7 +38,7 @@ function Navbar() {
 
       </nav>
 
-      {menuOpen && <SideMenu /> }
+      <DropMenu switch={menuOpen} />
 
     </>
   );

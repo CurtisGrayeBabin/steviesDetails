@@ -6,10 +6,10 @@ import { SiYelp } from "react-icons/si";
 import { SiTiktok } from "react-icons/si";
 import { MdOutlineEmail } from "react-icons/md";
 
-function SideMenu() {
+function DropMenu(props) {
 
   return (
-    <nav aria-label="Side Menu Navigation" className="side-menu-content">
+    <nav aria-label="Side Menu Navigation" className={`drop-menu-content-hidden ${props.switch ? 'drop-menu-content-shown' : ''}`}>
         <ul className="links">
 
             <li>
@@ -46,6 +46,6 @@ function SideMenu() {
   );
 }
 
-export default SideMenu;
+export default DropMenu;
 
 

@@ -69,9 +69,45 @@ footer div {
     text-align: center;
 }
 
-.side-menu-content {
-    z-index: 10;
+/* drop-down links */
+
+.drop-menu-content-hidden {
+    transition: height 0ms 800ms, opacity 1s;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
 }
+
+.drop-menu-content-shown {
+    opacity: 1;
+    height: auto;
+    transition: height 0ms 0ms, opacity 1s;
+}
+
+
+
+/*
+.drop-menu-content-hidden {
+    display: none;
+}
+
+.drop-menu-content-shown {
+    display: block;
+    animation: fade_in_show 2s
+}
+
+@keyframes fade_in_show {
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
+}
+*/
 
 .index-image-container {
     margin: 2rem auto;
@@ -89,6 +125,7 @@ footer div {
 ul {
     padding-inline-start: 0 !important;
     margin: 0 !important;
+    list-style-type: none;
 }
 
 
