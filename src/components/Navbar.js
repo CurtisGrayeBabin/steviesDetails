@@ -6,9 +6,6 @@ import { IconContext } from 'react-icons';
 import { VscChromeClose } from 'react-icons/vsc';
 import { HiMenu } from 'react-icons/hi';
 
-import { navigate } from '@reach/router';
-
-
 function Navbar() {
 
   // determines if side menu is open or not

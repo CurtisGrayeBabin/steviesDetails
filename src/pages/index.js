@@ -44,7 +44,7 @@ const IndexPage = () => {
       {/* cycle through car images */}
       <div className="index-image-container">
           {/*<StaticImage src={`../images/image-${imageNumber}.jpeg`} alt="Car" width={900} />*/}
-          <img src={`image-${imageNumber}.jpeg`} alt="Clean car image" width={900} />
+          <img src={`image-${imageNumber}.jpeg`} alt="Clean car" width={900} />
       </div>
 
       
