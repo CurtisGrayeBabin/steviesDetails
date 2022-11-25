@@ -1,6 +1,4 @@
-import "../styles/global.css";
-
-
+import * as React from "react";
 function Navbar() {
 
 
