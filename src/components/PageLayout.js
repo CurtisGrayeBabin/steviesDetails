@@ -11,13 +11,13 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
 
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{pageTitle}</title>
+        <title>Stevie's Details | {pageTitle}</title>
         <meta
           name="description"
           content={contentDescription}
         />
         <link rel="canonical" href={canonicalLink} />
-        <meta name="author" content="Stevie "></meta>
+        <meta name="author" content="Stevie"></meta>
         <link
           rel="manifest"
           crossorigin="use-credentials"
@@ -34,8 +34,7 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
         </main>
 
         <footer>
-          <div>Stevie's Details | {new Date().getFullYear()}</div>
-          <div>Website by&nbsp;<a href="https://curtisbabin.com" target="_">Curtis Babin</a></div>
+          Site developed by <a href="https://curtisbabin.com" target="_blank">Curtis Babin</a>
         </footer>
 
       </div>

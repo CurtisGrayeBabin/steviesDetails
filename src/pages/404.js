@@ -1,12 +1,10 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import { Link } from "gatsby";
 
 const NotFoundPage = () => {
   return (
     <main>
       <title>Not found</title>
-
-        <Link to="/">Go home</Link>.
+        <Link to="/">Home</Link>.
     </main>
   )
 }

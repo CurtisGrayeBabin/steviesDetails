@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Stevie's Details`,
     siteUrl: `https://steviesdetails.com`,
-    description: `Get like-new vehicle details from Stevie in Orange County, California`
+    description: `Excellent vehicle details in Orange County, California`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sharp", "gatsby-transformer-sharp", 
   {
@@ -17,12 +17,12 @@ module.exports = {
     resolve: `gatsby-plugin-manifest`,
     options: {
       name: `Stevie's Details`,
-      short_name: `Stevie`,
+      short_name: `Stevie's Details`,
       start_url: `/`,
       background_color: `#000000`,
       theme_color: `#000000`,
       display: `standalone`,
-      icon: "src/images/smallLogo.png"
+      icon: "src/images/small-logo.png"
     },
   },
 ]
