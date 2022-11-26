@@ -7,10 +7,10 @@ function Navbar() {
       <nav className="tb-padding">
 
         <div id="navbar-container" className="lr-padding">
-          <Link to="/" className="no-underline">Stevie’s Details (LLC)</Link>
+          <Link to="/" id="navbar-logo-link" className="transition">Stevie’s Details (LLC)</Link>
           <ul>
             <li>About</li>
-            <li><Link to="/Book">Book</Link></li>
+            <li><Link to="/Book" className="transition">Book</Link></li>
             <li>Pricing</li>
             <li>Gallery</li>
             <li>Socials</li>

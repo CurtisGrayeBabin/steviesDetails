@@ -27,21 +27,23 @@ html, body {
     max-width: 700px;
 }
 
+/* utility classes */
+.no-underline {
+    text-decoration: none;
+}
 
-#book-a-detail-button {
+.button-appearance {
     padding: 1rem 1.5rem;
     border: 1px solid var(--gold-color);
     background-color: var(--gold-color);
     border-radius: 2rem;
     color: var(--text-color);
     text-decoration: none;
-    margin-top: 2rem;
     font-size: 1.5rem;
 }
 
-/* utility classes */
-.no-underline {
-    text-decoration: none;
+.transition {
+    transition: 0.3s ease-in-out;
 }
 
 .gold {
@@ -78,6 +80,14 @@ nav {
     justify-content: space-between;
 }
 
+#navbar-logo-link {
+    text-decoration: none;
+}
+
+#navbar-logo-link:hover {
+    color: var(--gold-color);
+}
+
 #navbar-container ul {
     list-style-type: none;
     margin: 0;
@@ -94,6 +104,11 @@ nav {
 #navbar-container li a {
     color: var(--gold-color);
     text-decoration: none;
+}
+
+
+#navbar-container li a:hover {
+    color: var(--text-color);
 }
 
 /* footer styles */

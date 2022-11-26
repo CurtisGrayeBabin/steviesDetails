@@ -29,7 +29,7 @@ const IndexPage = () => {
           <abbr title="Established">Est.</abbr> 2019
         </h2>
 
-        <Link to="/Book" className="div center" id="book-a-detail-button">Book a Detail</Link>
+        <Link to="/Book" className="div center button-appearance" style={{"marginTop": "2rem"}}>Book a Detail</Link>
     
     </PageLayout>
   );

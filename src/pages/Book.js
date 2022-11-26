@@ -1,6 +1,5 @@
 import * as React from "react";
 import PageLayout from "../components/PageLayout";
-import { Link } from "gatsby";
 
 const IndexPage = () => {
 
