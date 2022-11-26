@@ -40,8 +40,12 @@ html, body {
 }
 
 /* utility classes */
+.no-underline {
+    text-decoration: none;
+}
+
 .gold {
-    color: var(--primary-color);
+    color: var(--gold-color);
 }
 
 .center {
@@ -87,6 +91,11 @@ nav {
     font-size: 1.5rem;
 }
 
+#navbar-container li a {
+    color: var(--gold-color);
+    text-decoration: none;
+}
+
 /* footer styles */
 footer {
     text-align: right;
@@ -94,6 +103,8 @@ footer {
     opacity: 0.5;
 }
 
+
+/* prevent purple links */
 a:visited {
     text-decoration: none;
     color: var(--text-color);

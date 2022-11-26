@@ -1,17 +1,16 @@
 import * as React from "react";
-function Navbar() {
+import { Link } from "gatsby";
 
+function Navbar() {
 
   return (
       <nav className="tb-padding">
 
         <div id="navbar-container" className="lr-padding">
-          <div>
-            Stevie’s Details (LLC)
-          </div>
+          <Link to="/" className="no-underline">Stevie’s Details (LLC)</Link>
           <ul>
             <li>About</li>
-            <li>Book</li>
+            <li><Link to="/Book">Book</Link></li>
             <li>Pricing</li>
             <li>Gallery</li>
             <li>Socials</li>

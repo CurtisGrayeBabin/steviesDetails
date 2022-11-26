@@ -34,7 +34,7 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
         </main>
 
         <footer className="lr-padding">
-          Site Developed by <a href="https://curtisbabin.com" target="_blank" rel="noreferrer">Curtis Babin</a>
+          Site Developed by <a href="https://www.curtisbabin.com" target="_blank" rel="noreferrer">Curtis Babin</a>
         </footer>
 
       </div>
