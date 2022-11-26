@@ -25,16 +25,16 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
         />
       </Helmet>
 
-      <div className="content-container">
+      <div id="content-container">
 
         <Navbar />
 
-        <main className="content">
+        <main id="content" className="lr-padding">
           {children}
         </main>
 
-        <footer>
-          Site developed by <a href="https://curtisbabin.com" target="_blank">Curtis Babin</a>
+        <footer className="lr-padding">
+          Site Developed by <a href="https://curtisbabin.com" target="_blank" rel="noreferrer">Curtis Babin</a>
         </footer>
 
       </div>

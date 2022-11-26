@@ -8,21 +8,93 @@ html, body {
     background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0;
-    font-family: "Almarai", sans-serif;
+    font-family: "Libre Caslon Display", "Almarai", sans-serif;
 }
 
-/* PageLayout content includes navigation bar content, body content, and footer content */
-.content-container {
+
+#content {
+    flex: 1;
+}
+
+#content-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
 }
 
-.content {
-    flex: 1;
-    padding: 0 1rem;
+#homepage-logo {
+    display: block;
+    max-width: 700px;
 }
 
+
+#book-a-detail-button {
+    padding: 1rem 1.5rem;
+    border: 1px solid var(--gold-color);
+    background-color: var(--gold-color);
+    border-radius: 2rem;
+    color: var(--text-color);
+    text-decoration: none;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+/* utility classes */
 .gold {
     color: var(--primary-color);
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.div {
+    display: block;
+    width: fit-content;
+}
+
+.lr-padding {
+    padding: 0 2.5%;
+}
+
+.tb-padding {
+    padding: 1rem 0;
+}
+
+
+/* navigation bar styles */
+nav {
+    border-bottom: 1px solid var(--gold-color);
+    font-size: 2rem;
+}
+
+
+#navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-container li {
+    display: inline;
+    color: var(--gold-color);
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+/* footer styles */
+footer {
+    text-align: right;
+    margin-bottom: .75rem;
+    opacity: 0.5;
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--text-color);
 }

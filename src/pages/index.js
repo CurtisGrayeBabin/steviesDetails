@@ -1,6 +1,6 @@
 import * as React from "react";
 import PageLayout from "../components/PageLayout";
-
+import { Link } from "gatsby";
 
 const IndexPage = () => {
 
@@ -17,8 +17,20 @@ const IndexPage = () => {
 
   return (
     <PageLayout pageTitle={pageTitle} contentDescription={contentDescription} canonicalLink={canonicalLink}>
+      
     
+        <img src="/static-logo.png" id="homepage-logo" alt="Stevie's Details logo" className="center" />
 
+        <h1 className="div center">
+          Stevie’s Details (LLC)
+        </h1>
+
+        <h2 className="div center">
+          <abbr title="Established">Est.</abbr> 2019
+        </h2>
+
+        <Link to="/Book" className="div center" id="book-a-detail-button">Book a Detail</Link>
+    
     </PageLayout>
   );
 };
