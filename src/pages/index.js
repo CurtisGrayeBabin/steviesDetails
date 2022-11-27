@@ -18,9 +18,8 @@ const IndexPage = () => {
   return (
     <PageLayout pageTitle={pageTitle} contentDescription={contentDescription} canonicalLink={canonicalLink}>
       
-    
-        <img src="/static-logo.png" id="homepage-logo-img" alt="Stevie's Details logo" className="center" />
-
+        <img src="/static-logo.png" id="homepage-logo-img" alt="Stevie's Details logo" className="center"  style={{"marginTop": "2rem"}} />
+ 
         <h1 className="div center">
           Stevie’s Details (LLC)
         </h1>
