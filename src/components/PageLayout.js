@@ -11,7 +11,7 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
 
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Stevie's Details | {pageTitle}</title>
+        <title>Stevie's Details (LLC) | {pageTitle}</title>
         <meta
           name="description"
           content={contentDescription}

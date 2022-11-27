@@ -30,10 +30,12 @@ html, body {
 #homepage-book-button {
     color: var(--bg-color);
     font-weight: bold;
+    font-size: 2rem;
+    border-radius: 4rem;
 }
 
 #homepage-book-button:hover {
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-radius: 4rem;
     box-shadow: 0px 0px 6px 0px var(--text-color);
 }
@@ -54,7 +56,7 @@ html, body {
 }
 
 .transition {
-    transition: 0.3s ease-in-out;
+    transition: 0.333s ease-in-out;
 }
 
 .gold {
@@ -65,7 +67,7 @@ html, body {
     margin: 0 auto;
 }
 
-.div {
+.block {
     display: block;
     width: fit-content;
 }
@@ -108,18 +110,19 @@ nav {
 #navbar-container li {
     display: inline;
     color: var(--gold-color);
-    margin: 0 1rem;
-    font-size: 1.5rem;
-}
-
-#navbar-container li:last-child {
-    margin: 0 0 0 1rem;
+    font-size: 1.75rem;
 }
 
 #navbar-container li a {
     color: var(--gold-color);
     text-decoration: none;
+    padding: 0rem 1rem;
 }
+
+#navbar-container li:last-child > a {
+    padding: 0 0 0 1rem;
+}
+
 
 
 #navbar-container li a:hover {

@@ -20,15 +20,13 @@ const IndexPage = () => {
       
         <img src="/static-logo.png" id="homepage-logo-img" alt="Stevie's Details logo" className="center"  style={{"marginTop": "2rem"}} />
  
-        <h1 className="div center">
-          Stevie’s Details (LLC)
-        </h1>
+        <h1 className="block center">Stevie’s Details (LLC)</h1>
 
-        <h2 className="div center">
+        <h2 className="block center">
           <abbr title="Established">Est.</abbr> 2019
         </h2>
 
-        <Link to="/Book" id="homepage-book-button" className="div center button-appearance transition" style={{"marginTop": "2rem"}}>Book a Detail</Link>
+        <Link to="/Book" id="homepage-book-button" className="block center button-appearance transition" style={{"marginTop": "2rem"}}>Book a Detail</Link>
     
     </PageLayout>
   );
