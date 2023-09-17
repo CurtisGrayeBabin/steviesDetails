@@ -39,7 +39,7 @@ const IndexPage = () => {
       </h2>
 
         <Link 
-          to="/Pricing" 
+          to="/pricing" 
           id="homepage-pricing-button" 
           className="button-appearance transition" 
           >Our Pricing</Link>

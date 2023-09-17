@@ -25,7 +25,7 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
         />
       </Helmet>
 
-      <div id="content-container">
+      <div className="content-container">
 
         
         <Navbar />

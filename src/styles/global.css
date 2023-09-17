@@ -11,7 +11,6 @@ html, body {
     font-family: "Libre Caslon Display", "Almarai", serif;
 }
 
-/* footer styles */
 footer {
     font-size: .75rem;
     margin: 2rem 0;
@@ -22,15 +21,21 @@ footer {
     align-items: center;
 }
 
-#content {
-    flex: 1;
-}
-
-#content-container {
+.content-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
 }
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    flex: 1;
+}
+
 
 #homepage-logo-img {
     display: inline-block;

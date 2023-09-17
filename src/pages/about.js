@@ -2,11 +2,11 @@ import * as React from "react";
 import PageLayout from "../components/PageLayout";
 import ComingSoon from "../components/ComingSoon";
 
-const BookPage = () => {
+const AboutPage = () => {
 
-  const pageTitle = "Book";
-  const contentDescription = "Book Us";
-  const canonicalLink = "https://steviesdetails.com/book";
+  const pageTitle = "About";
+  const contentDescription = "About Us";
+  const canonicalLink = "https://steviesdetails.com/about";
 
   return (
     <PageLayout 
@@ -22,4 +22,4 @@ const BookPage = () => {
   );
 };
 
-export default BookPage;
+export default AboutPage;

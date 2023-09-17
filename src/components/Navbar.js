@@ -9,11 +9,11 @@ function Navbar() {
         <div id="navbar-container" className="lr-padding">
           <Link to="/" id="navbar-logo-link" className="transition center-text letter-spacing">Stevie’s Details (LLC)</Link>
           <ul>
-            <li><Link to="/About" className="transition">About</Link></li>
-            <li><Link to="/Book" className="transition">Book</Link></li>
-            <li><Link to="/Pricing" className="transition">Pricing</Link></li>
-            <li><Link to="/Gallery" className="transition">Gallery</Link></li>
-            <li><Link to="/Socials" className="transition">Socials</Link></li>
+            <li><Link to="/about" className="transition">About</Link></li>
+            <li><Link to="/book" className="transition">Book</Link></li>
+            <li><Link to="/pricing" className="transition">Pricing</Link></li>
+            <li><Link to="/gallery" className="transition">Gallery</Link></li>
+            <li><Link to="/socials" className="transition">Socials</Link></li>
           </ul>
         </div>
 
