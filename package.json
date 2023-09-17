@@ -16,8 +16,7 @@
     "live": "gatsby clean && gatsby build && gatsby serve -H 0.0.0.0"
   },
   "dependencies": {
-    "@fontsource/almarai": "^4.5.3",
-    "@fontsource/libre-caslon-display": "^4.5.11",
+    "@fontsource/libre-caslon-display": "^5.0.12",
     "gatsby": "^4.24.8",
     "gatsby-plugin-image": "^2.10.0",
     "gatsby-plugin-manifest": "^4.20.0",

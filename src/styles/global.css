@@ -8,7 +8,7 @@ html, body {
     background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0;
-    font-family: "Libre Caslon Display", "Almarai", serif;
+    font-family: "Libre Caslon Display", serif;
 }
 
 footer {
@@ -162,16 +162,16 @@ nav {
 
 
 
-#developer:hover {
-    color: var(--gold-color);
-}
+
 
 /* prevent purple links */
-a#developer:visited, a#navbar-logo-link:visited, a#coming-soon-home-link:visited {
-    text-decoration: none;
-    color: var(--text-color) !important;
+a#developer, a#developer:visited, a#navbar-logo-link, a#navbar-logo-link:visited, a#coming-soon-home-link, a#coming-soon-home-link:visited {
+    color: var(--text-color);
 }
 
+a#navbar-logo-link:hover, a#developer:hover {
+    color: var(--gold-color);
+}
 
 /* mobile */
 @media only screen and (max-width: 950px){
