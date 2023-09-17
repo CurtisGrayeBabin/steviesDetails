@@ -1,14 +1,23 @@
+@font-face {
+    font-family: "LibreCaslonDisplay";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../static/fonts/LibreCaslonDisplayRegular.woff") format("woff");
+    font-display: swap;
+}  
+
 :root {
     --bg-color: black;
     --text-color: white;
     --gold-color: #c7b073;
 }
 
+
 html, body {
     background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0;
-    font-family: "Libre Caslon Display", serif;
+    font-family: "LibreCaslonDisplay", serif;
 }
 
 footer {
