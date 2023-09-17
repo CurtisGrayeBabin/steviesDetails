@@ -167,9 +167,9 @@ nav {
 }
 
 /* prevent purple links */
-a:visited {
+a#developer:visited, a#navbar-logo-link:visited, a#coming-soon-home-link:visited {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--text-color) !important;
 }
 
 

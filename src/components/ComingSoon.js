@@ -7,7 +7,7 @@ function ComingSoon() {
     <div className="center-container">
         <div className="column-container">
             <h2>Content Coming Soon</h2>
-            <h3 className="block center-text"><Link to="/">Home</Link></h3>
+            <h3 className="block center-text"><Link to="/" id="coming-soon-home-link">Home</Link></h3>
         </div>
     </div>
   )
