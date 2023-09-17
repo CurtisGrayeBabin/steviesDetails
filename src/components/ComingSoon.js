@@ -6,8 +6,8 @@ function ComingSoon() {
   return (
     <div className="center-container">
         <div className="column-container">
-            <div>Content Coming Soon</div>
-            <div className="block center-text"><Link to="/">Home</Link></div>
+            <h2>Content Coming Soon</h2>
+            <h3 className="block center-text"><Link to="/">Home</Link></h3>
         </div>
     </div>
   )
