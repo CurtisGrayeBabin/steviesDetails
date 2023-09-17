@@ -11,6 +11,17 @@ html, body {
     font-family: "Libre Caslon Display", "Almarai", serif;
 }
 
+/* footer styles */
+footer {
+    font-size: .75rem;
+    margin: 2rem 0;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #content {
     flex: 1;
 }
@@ -22,18 +33,22 @@ html, body {
 }
 
 #homepage-logo-img {
-    display: block;
-    max-width: 700px;
+    display: inline-block;
+    max-width: 35vw;
+    height: auto;
 }
 
-#homepage-book-button {
+#homepage-pricing-button {
     color: var(--bg-color);
     font-weight: bold;
     font-size: 2rem;
     border-radius: 4rem;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
 }
 
-#homepage-book-button:hover {
+#homepage-pricing-button:hover {
     font-size: 2.5rem;
     border-radius: 4rem;
     box-shadow: 0px 0px 6px 0px var(--text-color);
@@ -65,13 +80,19 @@ html, body {
     color: var(--gold-color);
 }
 
-.center {
-    margin: 0 auto;
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
 }
 
 .block {
     display: block;
-    width: fit-content;
+    width: 100%;
 }
 
 .lr-padding {
@@ -111,9 +132,10 @@ nav {
 }
 
 #navbar-container li {
-    display: inline;
+    display: inline-block;
     color: var(--gold-color);
     font-size: 1.75rem;
+    padding: .25rem;
 }
 
 #navbar-container li a {
@@ -133,13 +155,7 @@ nav {
     font-weight: bold;
 }
 
-/* footer styles */
-footer {
-    font-size: .75rem;
-    text-align: right;
-    margin-bottom: .75rem;
-    opacity: 0.5;
-}
+
 
 #developer:hover {
     color: var(--gold-color);
@@ -153,6 +169,12 @@ a:visited {
 
 
 /* mobile */
+@media only screen and (max-width: 950px){
+    #homepage-logo-img {
+        max-width: 60vw;
+    }
+}
+
 @media only screen and (max-width: 480px){
     .logo {
         width: 400px;
@@ -165,5 +187,10 @@ a:visited {
 
     #navbar-container li {
         font-size: 1rem;
+    }
+
+
+    #homepage-logo-img {
+        max-width: 90vw;
     }
 }

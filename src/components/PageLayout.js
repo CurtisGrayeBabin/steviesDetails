@@ -27,14 +27,20 @@ const Layout = ({ pageTitle, contentDescription, canonicalLink, children }) => {
 
       <div id="content-container">
 
+        
         <Navbar />
 
         <main id="content" className="lr-padding">
           {children}
         </main>
 
-        <footer className="lr-padding">
-          Site Developed by <a href="https://www.curtisbabin.com" target="_blank" rel="noreferrer" id="developer" className="transition">Curtis Babin</a>
+        <footer>
+          <div>
+            Stevie's Details (LLC) | {new Date().getFullYear()}
+          </div>
+          <div>
+            Site Developed by&nbsp;<a href="https://www.curtisbabin.com" target="_blank" rel="noreferrer" id="developer" className="transition" aria-label="Curtis Babin's website - opens in a new tab">Curtis Babin</a>
+          </div>
         </footer>
 
       </div>
