@@ -166,7 +166,6 @@ nav {
 
 #navbar-container li a:hover {
     color: var(--text-color);
-    font-weight: bold;
 }
 
 
