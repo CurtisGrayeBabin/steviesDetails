@@ -26,13 +26,14 @@ const IndexPage = () => {
           src="/static-logo.png" 
           id="homepage-logo-img" 
           alt="Stevie's Details logo" 
-          className="center logo"  
+          className="logo"  
         />
       </div>
 
-      <h1 className="block center-text letter-spacing">
+      <h1 className="block center-text letter-spacing no-margin-top">
         Stevie’s Details (LLC)
       </h1>
+
 
       <h2 className="block center-text">
         <abbr title="Established">Est.</abbr> 2019
