@@ -1,6 +1,7 @@
 ul > li {
     font-size: 1.5rem;
     opacity: .9;
+    letter-spacing: 1px;
 }
 
 .link {
