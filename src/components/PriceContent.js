@@ -33,16 +33,16 @@ function PriceContent({ jsonData }) {
         {
             jsonData.details.map((detail, index) => {
                 return (
-                    <>
+                    <div key={`div_${index}`}>
                         <h2 key={`detail_${index}`}>{detail.header}</h2>
-                        <ul>
+                        <ul key={`ul_${index}`}>
                             {
                                 detail.bullets.map((bullet, index) => {
                                     return <li key={`bullet_${index}`}>{bullet}</li>
                                 })
                             }
                         </ul>
-                    </>
+                    </div>
                 );
             })
         }

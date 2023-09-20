@@ -1,21 +1,6 @@
-h1 {
-    font-size: 3rem;
-}
-
-p {
-    font-size: 1.5rem;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-h2 {
-    font-size: 2rem;
-    text-align: center;
-    color: var(--gold-color);
-}
-
 ul > li {
     font-size: 1.5rem;
+    opacity: .9;
 }
 
 .link {
@@ -38,7 +23,8 @@ ul > li {
 }
 
 .pricing-table td {
-    padding: .5rem 0;
+    padding: .75rem 0;
+    font-weight: bold;
 }
 
 .pricing-table > caption {
