@@ -1,0 +1,58 @@
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--gold-color);
+}
+
+ul > li {
+    font-size: 1.5rem;
+}
+
+.link {
+    padding: 1rem 1.5rem;
+    border: 1px solid var(--gold-color);
+    background: linear-gradient(to right,var(--gold-color), var(--yellow-color));
+    color: black;
+    font-weight: bold;
+    border-radius: 3rem;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    margin: 0 1rem;
+}
+
+.pricing-table {
+    font-size: 1.25rem;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.pricing-table td {
+    padding: .5rem 0;
+}
+
+.pricing-table > caption {
+    color: var(--yellow-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pricing-table > thead > tr > th {
+    color: var(--gold-color);
+    font-size: 1.5rem;
+}
+
+.pricing-table .second-col {
+    text-align: center;
+}
+
