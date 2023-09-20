@@ -1,11 +1,3 @@
-@font-face {
-    font-family: "LibreCaslonDisplay";
-    font-weight: 400;
-    font-style: normal;
-    src: url("../../static/fonts/LibreCaslonDisplayRegular.woff") format("woff");
-    font-display: swap;
-}  
-
 :root {
     --bg-color: black;
     --text-color: white;
@@ -17,7 +9,7 @@ html, body {
     background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0;
-    font-family: "LibreCaslonDisplay", serif;
+    font-family: "Libre Caslon Display", serif;
 }
 
 footer {
@@ -159,7 +151,7 @@ nav {
 }
 
 #navbar-container li a {
-    color: var(--gold-color);
+    color: var(--yellow-color);
     text-decoration: none;
     padding: 0rem 1rem;
 }
@@ -196,11 +188,11 @@ a#navbar-logo-link:hover, a#developer:hover {
     }
 
     nav {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     #navbar-container li {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
 

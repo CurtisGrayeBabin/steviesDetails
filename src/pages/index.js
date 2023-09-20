@@ -30,7 +30,7 @@ const IndexPage = () => {
         />
       </div>
 
-      <h1 className="block center-text letter-spacing no-margin-top">
+      <h1 className="block center-text no-margin-top">
         Stevie’s Details (LLC)
       </h1>
 
