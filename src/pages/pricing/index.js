@@ -2,7 +2,6 @@ import * as React from "react";
 import PageLayout from "../../components/PageLayout";
 import { Link } from "gatsby";
 import "../../styles/pricing.css";
-//import JSONData from "../../../static/prices_data/maintenance_detail.json";
 
 const PricingPage = () => {
 
@@ -21,6 +20,14 @@ const PricingPage = () => {
 
         <Link to="./maintenance-detail" className="link transition">Maintenance Detail</Link>
         <Link to="./platinum-detail" className="link transition">Platinum Detail</Link>
+        <Link to="./mid-interior-detail" className="link transition">Mid Interior Detail</Link>
+        <Link to="./full-interior-detail" className="link transition">Full Interior Detail</Link>
+        <Link to="./one-step-paint-correction" className="link transition">1-Step Paint Correction</Link>
+        <Link to="./two-step-paint-correction" className="link transition">2-Step Paint Correction</Link>
+        <Link to="./six-month-ceramic-sealant" className="link transition">6-Month Ceramic Sealant</Link>
+        <Link to="./three-year-ceramic-coating" className="link transition">3-Year Ceramic Coating</Link>
+        <Link to="./five-year-ceramic-coating" className="link transition">5-Year Ceramic Coating</Link>
+        <Link to="./seven-year-ceramic-coating" className="link transition">7-Year Ceramic Coating</Link>
 
 
       </div>

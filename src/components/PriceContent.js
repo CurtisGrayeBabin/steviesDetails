@@ -4,17 +4,17 @@ import "../styles/pricing.css";
 function PriceContent({ jsonData }) {
 
   return (
-      <main>
+      <>
         <div className="center-text">
             <h1>{jsonData.title}</h1>
-            <p>{jsonData.notes}</p>
+            {jsonData.notes ? <p>{jsonData.notes}</p> : ""}
         </div>
 
             <table className="pricing-table">
                 <caption>Prices</caption>
                 <thead>
                     <tr>
-                        <th scope="col">Vehicle</th>
+                        <th scope="col">{jsonData.alternateFirstColumnTitle ? jsonData.alternateFirstColumnTitle : "Vehicle"}</th>
                         <th scope="col">Starting Price</th>
                     </tr>
                 </thead>
@@ -34,7 +34,7 @@ function PriceContent({ jsonData }) {
             jsonData.details.map((detail, index) => {
                 return (
                     <div key={`div_${index}`}>
-                        <h2 key={`detail_${index}`}>{detail.header}</h2>
+                        {detail.header ? <h2 key={`detail_${index}`}>{detail.header}</h2> : "" }
                         <ul key={`ul_${index}`}>
                             {
                                 detail.bullets.map((bullet, index) => {
@@ -46,7 +46,7 @@ function PriceContent({ jsonData }) {
                 );
             })
         }
-      </main>
+      </>
   );
 }
 
