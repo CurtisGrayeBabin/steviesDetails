@@ -17,12 +17,12 @@ const PricingPage = () => {
       canonicalLink={canonicalLink}>
       
       <div className="center-text">
-        <h1>Select a link to view Prices:</h1>
+        <h1>Select an Option to View Prices:</h1>
 
-        <Link 
-          to="./maintenance-detail" 
-          className="link" 
-          >Maintenance Detail</Link>
+        <Link to="./maintenance-detail" className="link transition">Maintenance Detail</Link>
+        <Link to="./platinum-detail" className="link transition">Platinum Detail</Link>
+
+
       </div>
 
     </PageLayout>
