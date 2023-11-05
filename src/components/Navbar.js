@@ -12,7 +12,6 @@ function Navbar() {
             <li><Link to="/about" className="transition">About</Link></li>
             <li><Link to="/book" className="transition">Book</Link></li>
             <li><Link to="/pricing" className="transition">Pricing</Link></li>
-            <li><Link to="/gallery" className="transition">Gallery</Link></li>
             <li><Link to="/socials" className="transition">Socials</Link></li>
           </ul>
         </div>
