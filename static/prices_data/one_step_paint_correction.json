@@ -1,22 +1,22 @@
 {
-    "title": "1-Step Paint Correction",
+    "title": "1-Step Paint Enhancement",
     "notes": null,
     "prices": [
         {
             "text": "Coupes / Sedans",
-            "price": 495
+            "price": 795
         },
         {
             "text": "Mid Size SUVs / Crossovers",
-            "price": 550
+            "price": 850
         },
         {
             "text": "Pickups",
-            "price": 650
+            "price": 995
         },
         {
             "text": "SUVs / Mini Vans",
-            "price": 695
+            "price": 1200
         }
     ],
     "details": [

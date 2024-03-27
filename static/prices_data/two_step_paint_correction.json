@@ -4,19 +4,19 @@
     "prices": [
         {
             "text": "Coupes / Sedans",
-            "price": 745
+            "price": 1250
         },
         {
             "text": "Mid Size SUVs / Crossovers",
-            "price": 845
+            "price": 1395
         },
         {
             "text": "Pickups",
-            "price": 945
+            "price": 1500
         },
         {
             "text": "SUVs / Mini Vans",
-            "price": 995
+            "price": 1750
         }
     ],
     "details": [

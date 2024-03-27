@@ -1,6 +1,6 @@
 import * as React from "react";
 import PageLayout from "../components/PageLayout";
-import ComingSoon from "../components/ComingSoon";
+import { Link } from "gatsby";
 
 const BookPage = () => {
 
@@ -16,8 +16,7 @@ const BookPage = () => {
       
         <h1>{contentDescription}</h1>
 
-        <ComingSoon />
-
+        <h2>Please book us directly through <Link to="../socials" className="">social media</Link> or on <a href="https://www.yelp.com/biz/stevie-s-details-santa-ana-3" target="_">Yelp!</a></h2>
     </PageLayout>
   );
 };

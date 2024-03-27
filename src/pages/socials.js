@@ -1,6 +1,5 @@
 import * as React from "react";
 import PageLayout from "../components/PageLayout";
-import ComingSoon from "../components/ComingSoon";
 
 const SocialsPage = () => {
 
@@ -23,8 +22,11 @@ const SocialsPage = () => {
       
         <h1>{contentDescription}</h1>
 
-        <ComingSoon />
-
+        <ul id="social-media-links">
+          <li><a href="https://www.yelp.com/biz/stevie-s-details-santa-ana-3" target="_">Yelp</a></li>
+          <li><a href="https://www.instagram.com/stevies_details/" target="_">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@stevies_details" target="_">TikTok</a></li>
+        </ul>
     </PageLayout>
   );
 };

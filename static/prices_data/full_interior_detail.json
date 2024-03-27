@@ -1,22 +1,22 @@
 {
-    "title": "Full Interior Detail",
+    "title": "Level 2 Interior Detail",
     "notes": null,
     "prices": [
         {
             "text": "Coupes / Sedans",
-            "price": 235
+            "price": 285
         },
         {
             "text": "Mid Size SUVs / Crossovers",
-            "price": 245
+            "price": 300
         },
         {
             "text": "Pickups",
-            "price": 275
+            "price": 335
         },
         {
             "text": "SUVs / Mini Vans",
-            "price": 295
+            "price": 375
         }
     ],
     "details": [

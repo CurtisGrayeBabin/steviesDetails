@@ -6,9 +6,9 @@ import JSONData from "../../../static/prices_data/full_interior_detail.json";
 
 const PricingPage = () => {
 
-  const pageTitle = "Full Interior Detail Prices";
-  const contentDescription = "Our Full Interior Detail Prices";
-  const canonicalLink = "https://steviesdetails.com/pricing/full-interior-detail";
+  const pageTitle = "Level 2 Interior Detail Prices";
+  const contentDescription = "Our Level 2 Interior Detail Prices";
+  const canonicalLink = "https://steviesdetails.com/pricing/level-2-interior-detail";
 
   return (
     <PageLayout 

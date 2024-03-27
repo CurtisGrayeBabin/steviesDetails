@@ -20,8 +20,8 @@ const PricingPage = () => {
 
         <Link to="./maintenance-detail" className="link transition">Maintenance Detail</Link>
         <Link to="./platinum-detail" className="link transition">Platinum Detail</Link>
-        <Link to="./mid-interior-detail" className="link transition">Mid Interior Detail</Link>
-        <Link to="./full-interior-detail" className="link transition">Full Interior Detail</Link>
+        <Link to="./level-1-interior-detail" className="link transition">Level 1 Interior Detail</Link>
+        <Link to="./level-2-interior-detail" className="link transition">Level 2 Interior Detail</Link>
         <Link to="./one-step-paint-correction" className="link transition">1-Step Paint Correction</Link>
         <Link to="./two-step-paint-correction" className="link transition">2-Step Paint Correction</Link>
         <Link to="./six-month-ceramic-sealant" className="link transition">6-Month Ceramic Sealant</Link>

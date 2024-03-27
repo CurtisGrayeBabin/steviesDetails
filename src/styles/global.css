@@ -185,6 +185,10 @@ nav {
 }
 
 
+#social-media-links li a {
+    color: var(--gold-color);
+}
+
 /* prevent purple links */
 a#developer, a#developer:visited, a#navbar-logo-link, a#navbar-logo-link:visited, a#coming-soon-home-link, a#coming-soon-home-link:visited {
     color: var(--text-color);
